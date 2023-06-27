@@ -1,24 +1,28 @@
-import logo from './logo.svg';
 import './App.css';
+
+import UseStateHook from './Components/UseStateHook';
+import UseReducerHook from './Components/UseReduserHook'
+import UseEffectHook from './Components/UseEffectHook';
+import UseRefHook from './Components/UseRefHook';
+import UseLayoutEffectHook from './Components/UseLayoutEffectHook';
+import ImparativeHandleHook from './Components/ImperativeHandleHook';
+import CreateContextHook from './Components/CreateContextHook/CreateContextHook';
+import UseMemoHook from './Components/UseMemoHook';
+import UseCallBackHook from './Components/UseCallBackHook/UseCallBackHook';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {/* <UseStateHook /> */}
+      {/* <UseReducerHook /> */}
+      {/* <UseEffectHook /> */}
+      {/* <UseRefHook /> */}
+      {/* <UseLayoutEffectHook /> */}
+      {/* <ImparativeHandleHook /> */}
+      {/* <CreateContextHook /> */}
+      {/* <UseMemoHook /> */}
+      <UseCallBackHook />
+    </>
   );
 }
 
